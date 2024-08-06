@@ -1,0 +1,144 @@
+object CustomerEditForm: TCustomerEditForm
+  Left = 0
+  Top = 0
+  Caption = #1047#1072#1084#1086#1074#1085#1080#1082
+  ClientHeight = 176
+  ClientWidth = 401
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 143.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Sb_Ok: TButton
+      Align = Left
+      Default = True
+      ModalResult = 1
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #1047#1073#1077#1088#1077#1075#1090#1080
+    end
+    object Sb_Close: TButton
+      Align = Right
+      Default = True
+      ModalResult = 8
+      Position.X = 321.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #1047#1072#1082#1088#1080#1090#1080
+    end
+  end
+  object Panel2: TPanel
+    Align = Client
+    Padding.Left = 8.000000000000000000
+    Padding.Right = 8.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 143.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Edt_Id: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 112.000000000000000000
+      Position.Y = 8.000000000000000000
+      Enabled = False
+      OnKeyDown = Edt_IdKeyDown
+    end
+    object Edt_Name: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Position.X = 112.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Edt_Address: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Position.X = 112.000000000000000000
+      Position.Y = 56.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Edt_Phone: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Position.X = 112.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      OnKeyDown = Edt_PhoneKeyDown
+    end
+    object Edt_IdentCode: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 4
+      Position.X = 112.000000000000000000
+      Position.Y = 104.000000000000000000
+      OnKeyDown = Edt_IdKeyDown
+    end
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1030#1076#1077#1085#1090#1080#1092#1110#1082#1072#1090#1086#1088
+      TabOrder = 5
+      TabStop = False
+    end
+    object Label2: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1053#1072#1079#1074#1072
+      TabOrder = 6
+      TabStop = False
+    end
+    object Label3: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 59.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1040#1076#1088#1077#1089#1072
+      TabOrder = 7
+      TabStop = False
+    end
+    object Label4: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 82.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1058#1077#1083#1077#1092#1086#1085
+      TabOrder = 8
+      TabStop = False
+    end
+    object Label5: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 107.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1030#1076#1077#1085#1090#1080#1092#1110#1082#1072#1094#1110#1081#1085#1080#1081' '
+      TabOrder = 9
+      TabStop = False
+    end
+  end
+end
