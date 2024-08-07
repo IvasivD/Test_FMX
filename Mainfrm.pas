@@ -178,7 +178,7 @@ begin
 end;
 
 procedure TMainForm.Sb_DeleteClick(Sender: TObject);
-begin              //sdfgr
+begin
   if LV_Orders.ItemCount = 0 then
   begin
     ErrorDlg('Список пустий!');
