@@ -165,7 +165,7 @@ end;
 
 procedure TMainForm.Update_OrderData(addRec: Boolean; aData: TOrderData);
 var aSQL: string;
-begin
+begin             //jhhkh
   if addRec then
     aSQL := Format('insert into Orders (ID_Customers, OrderNo, DateCreate, ReasonAppeal, ConnectionPower, AComment) '+
       'Values (%d, ''%s'', ''%s'', %d, ''%s'', ''%s'')',
